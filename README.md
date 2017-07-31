@@ -23,7 +23,7 @@ README with pictures can be found on our wiki:
 ## Building
 You need a working build system to build the yara-python library. On Ubuntu,
 you can get that by installing `sudo apt-get install -y build-essential
-libpython2.7-dev:i386 gcc-multilib`.
+libpython2.7-dev:i386 gcc-multilib libssl-dev:i386`.
 
 Run `python package.py --output <output-dir>` to build the plugin zip archives.
 
